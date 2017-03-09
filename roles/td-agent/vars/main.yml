@@ -2,9 +2,8 @@
 td_agent:
   plugins:
     - { name: 'fluent-plugin-elasticsearch' }
-    - { name: 'fluent-plugin-s3' }
   position_path: /var/log/td-agent/position
   aggregator:
-    ipaddr: 192.168.1.40
+    ipaddr: 192.168.200.4
     port: 24224
 
